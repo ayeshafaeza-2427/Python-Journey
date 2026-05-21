@@ -1,80 +1,268 @@
 # Variables in Python
 
-## What is a Variable?
+## Introduction
 
-A variable is used to store data.
+Variables are one of the most important concepts in Python.  
+A variable is used to store data or information that can be used later in a program.
+
+Think of a variable like a container that stores values.
 
 Example:
-
 ```python
-name = "Ayesha"
-age = 18
+name = "AYESHA"
 ```
 
 Here:
-- `name` stores text
-- `age` stores a number
+- `name` → variable name
+- `"AYESHA"` → value stored inside the variable
 
 ---
 
-## Rules for Variables
+# Why Do We Use Variables?
 
-✅ Can contain:
-- letters
-- numbers
-- underscore (_)
+Variables help us:
+- store information
+- reuse values
+- make programs dynamic
+- avoid writing the same data again and again
 
-❌ Cannot:
-- start with a number
-- contain spaces
-- use special symbols
-
-Correct:
+Example:
 ```python
-user_name = "Ali"
-age1 = 20
+name = "AYESHA"
+
+print(name)
+print("Welcome", name)
 ```
 
-Wrong:
+Output:
 ```python
-1name = "Ali"
-user name = "Ali"
+AYESHA
+Welcome AYESHA
 ```
 
 ---
 
-## Types of Variables
+# Creating Variables in Python
 
-### String
+Python automatically creates a variable when you assign a value using `=`.
+
+Syntax:
 ```python
-city = "Hyderabad"
+variable_name = value
 ```
 
-### Integer
+Example:
 ```python
+student_name = "AYESHA"
 age = 18
-```
-
-### Float
-```python
-height = 5.8
-```
-
-### Boolean
-```python
+height = 5.4
 is_student = True
 ```
 
 ---
 
-## Printing Variables
+# Types of Variables
 
+## 1. String (Text)
+
+Strings are used to store text.
+
+Example:
 ```python
-name = "Ayesha"
+name = "AYESHA"
+city = "Hyderabad"
+```
+
+---
+
+## 2. Integer (Whole Numbers)
+
+Integers are numbers without decimal points.
+
+Example:
+```python
+age = 18
+year = 2026
+```
+
+---
+
+## 3. Float (Decimal Numbers)
+
+Floats contain decimal values.
+
+Example:
+```python
+height = 5.4
+temperature = 36.7
+```
+
+---
+
+## 4. Boolean (True or False)
+
+Boolean values represent only:
+- True
+- False
+
+Example:
+```python
+is_student = True
+is_logged_in = False
+```
+
+---
+
+# Rules for Naming Variables
+
+## ✅ Allowed
+- letters
+- numbers
+- underscore (_)
+
+Examples:
+```python
+user_name = "AYESHA"
+age1 = 18
+student_city = "Hyderabad"
+```
+
+---
+
+## ❌ Not Allowed
+
+### Cannot start with a number
+```python
+1name = "AYESHA"
+```
+
+### Cannot contain spaces
+```python
+student name = "AYESHA"
+```
+
+### Cannot use special symbols
+```python
+name@ = "AYESHA"
+```
+
+---
+
+# Python is Case Sensitive
+
+Python treats uppercase and lowercase letters differently.
+
+Example:
+```python
+name = "AYESHA"
+Name = "Python"
+```
+
+These are considered two different variables.
+
+---
+
+# Printing Variables
+
+We use `print()` to display variables.
+
+Example:
+```python
+name = "AYESHA"
+age = 18
+
 print(name)
+print(age)
 ```
 
 Output:
 ```python
-Junaid
+AYESHA
+18
 ```
+
+---
+
+# Printing Multiple Variables
+
+Example:
+```python
+name = "AYESHA"
+city = "Hyderabad"
+
+print(name, city)
+```
+
+Output:
+```python
+AYESHA Hyderabad
+```
+
+---
+
+# Checking Variable Type
+
+We use `type()` to check the datatype of a variable.
+
+Example:
+```python
+name = "AYESHA"
+age = 18
+
+print(type(name))
+print(type(age))
+```
+
+Output:
+```python
+<class 'str'>
+<class 'int'>
+```
+
+---
+
+# Taking User Input
+
+Python can take input from users using `input()`.
+
+Example:
+```python
+name = input("Enter your name: ")
+
+print("Welcome", name)
+```
+
+---
+
+# Mini Practice Program
+
+```python
+name = "AYESHA"
+age = 18
+college = "Engineering College"
+
+print("Student Name:", name)
+print("Age:", age)
+print("College:", college)
+```
+
+Output:
+```python
+Student Name: AYESHA
+Age: 18
+College: Engineering College
+```
+
+---
+
+# Summary
+
+In this file, we learned:
+- what variables are
+- why variables are used
+- types of variables
+- rules for naming variables
+- printing variables
+- taking user input
+
+Variables are the foundation of programming and are used in almost every Python project.

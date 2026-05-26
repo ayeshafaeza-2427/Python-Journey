@@ -1,0 +1,112 @@
+# Conditionals in Python
+
+Conditionals are used to make decisions in a program based on certain conditions.
+
+They allow the program to execute different blocks of code depending on whether a condition is True or False.
+
+Conditionals are widely used in decision-making, validations, and controlling program flow.
+
+---
+
+## Types of Conditional Statements in Python
+
+1. if Statement  
+2. if-else Statement  
+3. if-elif-else Statement  
+4. Nested if  
+5. Shorthand if-else (Ternary Operator)  
+6. Logical Conditions  
+
+---
+
+## 1. if Statement
+
+The if statement executes a block of code only if the condition is True.
+
+| Example |
+|--------|
+| ```python |
+| age = 18 |
+| if age >= 18: |
+|     print("Eligible to vote") |
+| ``` |
+
+---
+
+## 2. if-else Statement
+
+The if-else statement executes one block if the condition is True and another if it is False.
+
+| Example |
+|--------|
+| ```python |
+| num = 7 |
+| if num % 2 == 0: |
+|     print("Even") |
+| else: |
+|     print("Odd") |
+| ``` |
+
+---
+
+## 3. if-elif-else Statement
+
+Used when multiple conditions need to be checked.
+
+| Example |
+|--------|
+| ```python |
+| marks = 85 |
+| if marks >= 90: |
+|     print("Grade A") |
+| elif marks >= 75: |
+|     print("Grade B") |
+| elif marks >= 50: |
+|     print("Grade C") |
+| else: |
+|     print("Fail") |
+| ``` |
+
+---
+
+## 4. Nested if
+
+An if statement inside another if statement.
+
+| Example |
+|--------|
+| ```python |
+| num = 10 |
+| if num > 0: |
+|     if num % 2 == 0: |
+|         print("Positive Even") |
+| ``` |
+
+---
+
+## 5. Shorthand if-else (Ternary Operator)
+
+A one-line if-else statement.
+
+| Example |
+|--------|
+| ```python |
+| a = 5 |
+| b = 10 |
+| print("A is greater") if a > b else print("B is greater") |
+| ``` |
+
+---
+
+## 6. Logical Conditions
+
+Logical operators like and, or, not are used to combine conditions.
+
+| Example |
+|--------|
+| ```python |
+| age = 20 |
+| has_id = True |
+| if age >= 18 and has_id: |
+|     print("Allowed entry") |
+| ``` |

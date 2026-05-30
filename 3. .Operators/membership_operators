@@ -1,0 +1,9 @@
+
+language = "Python"
+
+print("===== Membership Operators =====")
+
+print("'P' in language:", "P" in language)
+print("'z' not in language:", "z" not in language)
+
+print("\n")

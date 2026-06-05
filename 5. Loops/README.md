@@ -2,7 +2,7 @@
 
 Loops are used to execute a block of code repeatedly until a specified condition is met. They help reduce code duplication and make programs more efficient.
 
-## 📚 _Topics Covered_
+## 📚 Topics Covered
 
 - For Loop
 - While Loop
@@ -19,7 +19,7 @@ Loops are used to execute a block of code repeatedly until a specified condition
 
 A `for` loop is used to iterate over a sequence such as a list, tuple, string, or range.
 
-### _Example_
+### Example
 
 ```python
 for i in range(5):
@@ -42,7 +42,7 @@ for i in range(5):
 
 A `while` loop executes as long as a condition remains true.
 
-###_ Example_
+### Example
 
 ```python
 count = 1
@@ -68,7 +68,7 @@ while count <= 5:
 
 The `break` statement terminates the loop immediately.
 
-###_ Example_
+### Example
 
 ```python
 for i in range(1, 10):

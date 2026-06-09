@@ -1,4 +1,4 @@
-print("===== Comparison Operators =====")
+print("====== Comparison Operators ======")
 
 print("Equal to:", a == b)
 print("Not Equal to:", a != b)

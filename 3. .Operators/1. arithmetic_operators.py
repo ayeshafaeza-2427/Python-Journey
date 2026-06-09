@@ -1,5 +1,5 @@
 a = 15
-b = 4
+b = 40
 
 print("===== Arithmetic Operators =====")
 

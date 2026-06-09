@@ -4,7 +4,7 @@ print("===== Assignment Operators =====")
 
 print("Initial Value:", num)
 
-num += 5
+num += 6
 print("After += :", num)
 
 num -= 3

@@ -90,7 +90,7 @@ Many top companies use Python, including:
 
 ---
 
-## Why I am Learning Python
+## Why I'm Learning Python
 
 I am learning Python to build a strong programming foundation and improve my logical thinking and problem-solving skills.
 

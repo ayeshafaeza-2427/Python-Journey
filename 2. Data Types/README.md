@@ -19,7 +19,7 @@ Integers are whole numbers without decimal points.
 ### Examples
 
 ```python
-age = 199
+age = 19
 marks = 95
 year = 2025
 ```

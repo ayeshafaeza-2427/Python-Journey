@@ -1,5 +1,5 @@
 # Data Types in Python
-
+ 
 ## Introduction
 
 Data types define the type of value a variable can store in Python.
@@ -19,7 +19,7 @@ Integers are whole numbers without decimal points.
 ### Examples
 
 ```python
-age = 14
+age = 18
 marks = 95
 year = 2025
 ```

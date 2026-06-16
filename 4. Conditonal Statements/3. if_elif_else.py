@@ -1,4 +1,4 @@
-marks = int(input("Enter your marks: "))
+marks = int(input("Enter marks: "))
 
 if marks >= 90:
     print("Grade A")

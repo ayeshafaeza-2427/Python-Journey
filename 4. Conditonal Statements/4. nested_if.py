@@ -1,4 +1,4 @@
-age = int(input("Enter your age : "))
+age = int(input("Enter your age : ")
 
 if age >= 18:
     has_license = input("Do you have a driving license? (yes/no): ")

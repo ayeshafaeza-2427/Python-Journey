@@ -1,5 +1,5 @@
 # Integer Data Type
-age = 1
+age = 18
 marks = 95
 
 print("Integer Examples:")

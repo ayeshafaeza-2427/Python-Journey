@@ -1,6 +1,6 @@
 # Simple if statement
 
-age = 1
+age = 
 
 if age >= 18:
     print("Eligible  to  vote")

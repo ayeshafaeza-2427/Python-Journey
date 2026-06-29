@@ -1,6 +1,6 @@
 marks = float(input("Enter your marks (0-100): "))
 
-if marks >= 9 :
+if marks >=  :
     print("Grade: A")
 elif marks >= 80:
     print("Grade: B")

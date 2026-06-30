@@ -1,6 +1,6 @@
 list1 = [1, 2, 4]
 list2 = [1, 2, 4]
-list3 = list
+list3 = lis
 
 
 print("===== Identity Operators =====")
